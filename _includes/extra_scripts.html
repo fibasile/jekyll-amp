@@ -1,19 +1,27 @@
-{% if site.embed.twitter %}
+{% if site.amp_modules.embed.twitter %}
     <script async custom-element="amp-twitter"
   src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
 {% endif %}
 
-{% if site.embed.facebook %}
+{% if site.amp_modules.embed.facebook %}
 <script async custom-element="amp-facebook"
   src="https://cdn.ampproject.org/v0/amp-facebook-0.1.js"></script>
 {% endif %}
 
-{% if site.embed.instagram %}
+{% if site.amp_modules.embed.instagram %}
 <script async custom-element="amp-instagram"
   src="https://cdn.ampproject.org/v0/amp-instagram-0.1.js"></script>
 {% endif %}
 
-{% if site.embed.youtube %}
+{% if site.amp_modules.embed.youtube %}
 <script async custom-element="amp-youtube"
   src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+{% endif %}
+
+{% if site.amp_modules.content.3dgltf %}
+<script async custom-element="amp-3d-gltf" src="https://cdn.ampproject.org/v0/amp-3d-gltf-0.1.js"></script>
+{% endif %}
+
+{% if site.amp_modules.content.audio %}
+<script async custom-element="amp-audio" src="https://cdn.ampproject.org/v0/amp-audio-0.1.js"></script>
 {% endif %}

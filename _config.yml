@@ -1,8 +1,12 @@
 title: "@fibasile"
 author: Fiore Basile
 
-embed:
-  - twitter
-  - instagram
-  - youtube
-  - facebook
+amp_modules:
+  embed:
+    twitter: true
+    instagram: true
+    youtube: true
+    facebook: true
+  content:
+    3d-gltf: true
+    audio: true
