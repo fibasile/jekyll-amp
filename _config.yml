@@ -1,6 +1,7 @@
 title: "@fibasile"
 author: Fiore Basile
 
+# Switch to false or comment out the modules you don't use
 amp_modules:
   embed:
     twitter: true
@@ -8,5 +9,10 @@ amp_modules:
     youtube: true
     facebook: true
   content:
+    carousel: true
+    share: true
     3d-gltf: true
     audio: true
+    user_notification: true
+    analytics: true
+    fit_text: true
